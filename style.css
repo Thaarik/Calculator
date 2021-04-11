@@ -1,0 +1,87 @@
+body {
+    background: #311D3F;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    ;
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 8px double #E23E57;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #88304E;
+}
+
+.outputScreen {
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    height: 77px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.outputScreen .previous-value {
+    color: cornsilk;
+    font-size: 20px
+}
+
+.outputScreen .current-value {
+    color: cornsilk;
+    font-size: 30px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    background-color: #FFB99A;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: ;
+}
+
+
+/* .row-two button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    background-color: #FFB99A;
+}
+
+.row-three button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    background-color: #FFB99A;
+}
+
+.row-four button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    background-color: #FFB99A;
+}
+
+.row-five button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    background-color: #FFB99A;
+} */
